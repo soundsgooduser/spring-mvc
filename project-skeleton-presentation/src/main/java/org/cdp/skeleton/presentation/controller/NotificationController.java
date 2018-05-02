@@ -18,7 +18,7 @@ public class NotificationController {
     @Autowired
     private NotificationConverter notificationConverter;
 
-    @Value("${property}")
+    @Value("${my.app.property}")
     private String myAppProperty; //just to test that property is being loaded from application.properties file
 
     @RequestMapping("/load-notification")
