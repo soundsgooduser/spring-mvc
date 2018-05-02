@@ -1,0 +1,10 @@
+<FindBugsFilter>
+    <!-- Match all DM_CONVERT_CASE violations. -->
+    <Match>
+        <Bug pattern="MS_PKGPROTECT"/>
+    </Match>
+    <Match>
+        <Package name="org.cdp.mail.service"/>
+    </Match>
+
+</FindBugsFilter>
